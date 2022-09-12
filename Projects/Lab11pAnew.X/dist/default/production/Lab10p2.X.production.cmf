@@ -1,0 +1,1655 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+idloc IDLOC 0 200000 200000 8 1
+reset_vec CODE 0 0 0 4 1
+end_init CODE 0 18 18 4 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/production\Lab10p2.X.production.obj
+cinit CODE 0 D1C D1C 7A 1
+intcode_body CODE 0 CA0 CA0 7C 1
+text0 CODE 0 A22 A22 C2 1
+text1 CODE 0 1C 1C 35A 1
+text2 CODE 0 14A2 14A2 E 1
+text3 CODE 0 1366 1366 22 1
+text4 CODE 0 1020 1020 4C 1
+text5 CODE 0 ED0 ED0 5C 1
+text6 CODE 0 B82 B82 96 1
+text7 CODE 0 1148 1148 44 1
+text8 CODE 0 1412 1412 14 1
+text9 CODE 0 D96 D96 70 1
+text10 CODE 0 12B4 12B4 30 1
+text11 CODE 0 AE4 AE4 9E 1
+text12 CODE 0 1282 1282 32 1
+text13 CODE 0 13C6 13C6 1C 1
+text14 CODE 0 946 946 DC 1
+text15 CODE 0 62C 62C 118 1
+text16 CODE 0 118C 118C 3E 1
+text17 CODE 0 4D6 4D6 156 1
+text18 CODE 0 106C 106C 4A 1
+text19 CODE 0 C18 C18 88 1
+text20 CODE 0 12E4 12E4 30 1
+text21 CODE 0 FD2 FD2 4E 1
+text22 CODE 0 1314 1314 2A 1
+text23 CODE 0 854 854 F2 1
+text24 CODE 0 11CA 11CA 3E 1
+text25 CODE 0 744 744 110 1
+text26 CODE 0 1482 1482 10 1
+text27 CODE 0 1492 1492 10 1
+text28 CODE 0 1426 1426 14 1
+text29 CODE 0 143A 143A 12 1
+text30 CODE 0 F80 F80 52 1
+text31 CODE 0 133E 133E 28 1
+text32 CODE 0 14C8 14C8 A 1
+text33 CODE 0 13A8 13A8 1E 1
+text34 CODE 0 1388 1388 20 1
+text35 CODE 0 13E2 13E2 1A 1
+text36 CODE 0 E06 E06 66 1
+text37 CODE 0 E6C E6C 64 1
+text38 CODE 0 1246 1246 3C 1
+text39 CODE 0 1208 1208 3E 1
+text40 CODE 0 144C 144C 12 1
+text41 CODE 0 145E 145E 12 1
+text42 CODE 0 1100 1100 48 1
+text43 CODE 0 14D2 14D2 A 1
+text44 CODE 0 1470 1470 12 1
+text45 CODE 0 13FC 13FC 16 1
+text46 CODE 0 14DC 14DC A 1
+text47 CODE 0 14E6 14E6 8 1
+text48 CODE 0 14EE 14EE 8 1
+text49 CODE 0 14B0 14B0 C 1
+text51 CODE 0 14BC 14BC C 1
+text52 CODE 0 376 376 160 1
+text53 CODE 0 14F6 14F6 8 1
+idataCOMRAM CODE 0 14FE 14FE 2 1
+cstackCOMRAM COMRAM 1 1 1 3D 1
+cstackBANK0 BANK0 1 E8 E8 F 1
+bssBANK0 BANK0 1 C9 C9 1F 1
+intcode CODE 0 8 8 10 1
+idataBANK0 CODE 0 10B6 10B6 49 1
+idataBANK1 CODE 0 F2C F2C 54 1
+dataBANK0 BANK0 1 80 80 49 1
+dataBANK1 BANK1 1 100 100 54 1
+dataCOMRAM COMRAM 1 6D 6D 2 1
+bssCOMRAM COMRAM 1 3E 3E 2F 1
+mediumconst MEDIUMCONST 0 FD9A FD9A 266 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM F7-FF 1
+RAM 154-F7F 1
+SFR F80-FFF 1
+BANK0 F7-FF 1
+BANK1 154-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 10FF-10FF 1
+CONST 1500-FD99 1
+STACK 154-F7F 1
+SMALLCONST 10FF-10FF 1
+SMALLCONST 1500-FD99 1
+CODE 4-7 1
+CODE 10FF-10FF 1
+CODE 1500-FD99 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F7F 1
+BIGRAM 6F-7F 1
+BIGRAM F7-FF 1
+BIGRAM 154-F7F 1
+COMRAM 6F-7F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 10FF-10FF 1
+MEDIUMCONST 1500-FD99 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Lab10p2.X.production.obj
+8 intcode CODE >113:E:\MPLab\Projects\Lab10p2.X\I2C.c
+8 intcode CODE >28:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+1C text1 CODE >464:E:\XC8\sources\common\doprnt.c
+1C text1 CODE >533:E:\XC8\sources\common\doprnt.c
+24 text1 CODE >536:E:\XC8\sources\common\doprnt.c
+26 text1 CODE >538:E:\XC8\sources\common\doprnt.c
+2E text1 CODE >541:E:\XC8\sources\common\doprnt.c
+34 text1 CODE >542:E:\XC8\sources\common\doprnt.c
+36 text1 CODE >546:E:\XC8\sources\common\doprnt.c
+3E text1 CODE >548:E:\XC8\sources\common\doprnt.c
+42 text1 CODE >551:E:\XC8\sources\common\doprnt.c
+44 text1 CODE >580:E:\XC8\sources\common\doprnt.c
+46 text1 CODE >581:E:\XC8\sources\common\doprnt.c
+4A text1 CODE >582:E:\XC8\sources\common\doprnt.c
+4C text1 CODE >584:E:\XC8\sources\common\doprnt.c
+4E text1 CODE >551:E:\XC8\sources\common\doprnt.c
+60 text1 CODE >585:E:\XC8\sources\common\doprnt.c
+62 text1 CODE >586:E:\XC8\sources\common\doprnt.c
+64 text1 CODE >597:E:\XC8\sources\common\doprnt.c
+78 text1 CODE >598:E:\XC8\sources\common\doprnt.c
+82 text1 CODE >600:E:\XC8\sources\common\doprnt.c
+9E text1 CODE >601:E:\XC8\sources\common\doprnt.c
+CA text1 CODE >602:E:\XC8\sources\common\doprnt.c
+E0 text1 CODE >635:E:\XC8\sources\common\doprnt.c
+E2 text1 CODE >638:E:\XC8\sources\common\doprnt.c
+E4 text1 CODE >699:E:\XC8\sources\common\doprnt.c
+E6 text1 CODE >721:E:\XC8\sources\common\doprnt.c
+E8 text1 CODE >723:E:\XC8\sources\common\doprnt.c
+EA text1 CODE >813:E:\XC8\sources\common\doprnt.c
+EC text1 CODE >822:E:\XC8\sources\common\doprnt.c
+EE text1 CODE >635:E:\XC8\sources\common\doprnt.c
+11C text1 CODE >822:E:\XC8\sources\common\doprnt.c
+11C text1 CODE >1251:E:\XC8\sources\common\doprnt.c
+120 text1 CODE >1259:E:\XC8\sources\common\doprnt.c
+138 text1 CODE >1261:E:\XC8\sources\common\doprnt.c
+13C text1 CODE >1262:E:\XC8\sources\common\doprnt.c
+140 text1 CODE >1263:E:\XC8\sources\common\doprnt.c
+148 text1 CODE >1266:E:\XC8\sources\common\doprnt.c
+14A text1 CODE >1286:E:\XC8\sources\common\doprnt.c
+162 text1 CODE >1294:E:\XC8\sources\common\doprnt.c
+164 text1 CODE >1305:E:\XC8\sources\common\doprnt.c
+174 text1 CODE >1306:E:\XC8\sources\common\doprnt.c
+196 text1 CODE >1307:E:\XC8\sources\common\doprnt.c
+198 text1 CODE >1305:E:\XC8\sources\common\doprnt.c
+19C text1 CODE >1309:E:\XC8\sources\common\doprnt.c
+19E text1 CODE >1316:E:\XC8\sources\common\doprnt.c
+1AE text1 CODE >1317:E:\XC8\sources\common\doprnt.c
+1D0 text1 CODE >1318:E:\XC8\sources\common\doprnt.c
+1D2 text1 CODE >1316:E:\XC8\sources\common\doprnt.c
+1D6 text1 CODE >1336:E:\XC8\sources\common\doprnt.c
+1D8 text1 CODE >1294:E:\XC8\sources\common\doprnt.c
+1EA text1 CODE >1345:E:\XC8\sources\common\doprnt.c
+1FE text1 CODE >1346:E:\XC8\sources\common\doprnt.c
+206 text1 CODE >1381:E:\XC8\sources\common\doprnt.c
+21C text1 CODE >1382:E:\XC8\sources\common\doprnt.c
+22A text1 CODE >1384:E:\XC8\sources\common\doprnt.c
+234 text1 CODE >1387:E:\XC8\sources\common\doprnt.c
+238 text1 CODE >1392:E:\XC8\sources\common\doprnt.c
+244 text1 CODE >1393:E:\XC8\sources\common\doprnt.c
+24C text1 CODE >1415:E:\XC8\sources\common\doprnt.c
+254 text1 CODE >1417:E:\XC8\sources\common\doprnt.c
+25A text1 CODE >1418:E:\XC8\sources\common\doprnt.c
+26A text1 CODE >1420:E:\XC8\sources\common\doprnt.c
+26C text1 CODE >1428:E:\XC8\sources\common\doprnt.c
+274 text1 CODE >1430:E:\XC8\sources\common\doprnt.c
+27A text1 CODE >1431:E:\XC8\sources\common\doprnt.c
+28C text1 CODE >1438:E:\XC8\sources\common\doprnt.c
+298 text1 CODE >1439:E:\XC8\sources\common\doprnt.c
+2A0 text1 CODE >1472:E:\XC8\sources\common\doprnt.c
+2A4 text1 CODE >1474:E:\XC8\sources\common\doprnt.c
+2A6 text1 CODE >1476:E:\XC8\sources\common\doprnt.c
+2A8 text1 CODE >1489:E:\XC8\sources\common\doprnt.c
+2EA text1 CODE >1491:E:\XC8\sources\common\doprnt.c
+2EC text1 CODE >1500:E:\XC8\sources\common\doprnt.c
+31A text1 CODE >1506:E:\XC8\sources\common\doprnt.c
+330 text1 CODE >1523:E:\XC8\sources\common\doprnt.c
+332 text1 CODE >1476:E:\XC8\sources\common\doprnt.c
+344 text1 CODE >1524:E:\XC8\sources\common\doprnt.c
+34C text1 CODE >1474:E:\XC8\sources\common\doprnt.c
+358 text1 CODE >536:E:\XC8\sources\common\doprnt.c
+374 text1 CODE >1541:E:\XC8\sources\common\doprnt.c
+376 text52 CODE >48:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+376 text52 CODE >51:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+378 text52 CODE >52:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+37E text52 CODE >54:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+394 text52 CODE >55:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+398 text52 CODE >56:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+39C text52 CODE >59:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+39E text52 CODE >63:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3A2 text52 CODE >64:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3A6 text52 CODE >65:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3A8 text52 CODE >66:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3AC text52 CODE >67:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3AE text52 CODE >68:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3B2 text52 CODE >69:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3C2 text52 CODE >70:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3C6 text52 CODE >71:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3C8 text52 CODE >72:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3CA text52 CODE >77:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3E2 text52 CODE >79:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3E6 text52 CODE >80:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3E8 text52 CODE >83:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3EE text52 CODE >85:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3F0 text52 CODE >86:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+3F2 text52 CODE >91:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+40A text52 CODE >93:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+40E text52 CODE >94:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+410 text52 CODE >97:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+416 text52 CODE >99:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+418 text52 CODE >100:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+41A text52 CODE >105:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+432 text52 CODE >107:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+436 text52 CODE >111:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+43C text52 CODE >113:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+43E text52 CODE >114:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+440 text52 CODE >119:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+458 text52 CODE >121:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+46A text52 CODE >122:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+476 text52 CODE >124:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+48E text52 CODE >125:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+48E text52 CODE >126:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+492 text52 CODE >127:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+498 text52 CODE >129:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4A0 text52 CODE >130:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4A2 text52 CODE >131:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4A6 text52 CODE >132:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4A8 text52 CODE >137:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4AE text52 CODE >139:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4B0 text52 CODE >142:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4B2 text52 CODE >59:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4D4 text52 CODE >143:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+4D6 text17 CODE >447:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+4D8 text17 CODE >450:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+4E4 text17 CODE >451:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+4E6 text17 CODE >452:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+4F2 text17 CODE >453:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+500 text17 CODE >454:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+504 text17 CODE >455:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+510 text17 CODE >457:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+516 text17 CODE >458:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+540 text17 CODE >460:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+574 text17 CODE >461:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+580 text17 CODE >462:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+584 text17 CODE >463:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+5A2 text17 CODE >464:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+5C8 text17 CODE >465:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+5CA text17 CODE >466:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+5D8 text17 CODE >467:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+5F6 text17 CODE >468:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+61C text17 CODE >469:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+61E text17 CODE >461:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+626 text17 CODE >455:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+62A text17 CODE >472:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+62C text15 CODE >474:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+630 text15 CODE >478:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+638 text15 CODE >479:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+64C text15 CODE >480:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+658 text15 CODE >481:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+684 text15 CODE >482:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+68A text15 CODE >483:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+69C text15 CODE >484:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+6AC text15 CODE >485:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+6CE text15 CODE >486:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+706 text15 CODE >487:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+716 text15 CODE >488:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+726 text15 CODE >480:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+742 text15 CODE >490:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+744 text25 CODE >281:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+744 text25 CODE >283:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+74A text25 CODE >284:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+756 text25 CODE >285:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+75C text25 CODE >286:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+768 text25 CODE >287:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+76E text25 CODE >288:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+774 text25 CODE >289:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+77A text25 CODE >290:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+780 text25 CODE >291:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+786 text25 CODE >292:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+78C text25 CODE >293:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+792 text25 CODE >294:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+798 text25 CODE >295:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+79E text25 CODE >296:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7A4 text25 CODE >297:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7AA text25 CODE >298:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7B0 text25 CODE >299:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7B6 text25 CODE >300:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7BC text25 CODE >301:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7C2 text25 CODE >302:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7C8 text25 CODE >303:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7CE text25 CODE >304:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7D4 text25 CODE >305:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7DA text25 CODE >306:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7E0 text25 CODE >307:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7E6 text25 CODE >308:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7EC text25 CODE >309:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7F2 text25 CODE >310:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7F8 text25 CODE >311:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+7FE text25 CODE >312:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+804 text25 CODE >313:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+80A text25 CODE >314:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+810 text25 CODE >315:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+816 text25 CODE >316:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+81C text25 CODE >317:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+822 text25 CODE >318:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+828 text25 CODE >319:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+82E text25 CODE >320:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+834 text25 CODE >321:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+83A text25 CODE >322:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+840 text25 CODE >323:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+846 text25 CODE >324:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+84C text25 CODE >325:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+852 text25 CODE >326:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+854 text23 CODE >338:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+854 text23 CODE >340:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+85A text23 CODE >341:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+872 text23 CODE >342:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+88A text23 CODE >343:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+8A2 text23 CODE >344:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+8BA text23 CODE >345:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+8C0 text23 CODE >346:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+8D8 text23 CODE >347:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+8F0 text23 CODE >348:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+908 text23 CODE >349:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+920 text23 CODE >350:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+926 text23 CODE >351:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+932 text23 CODE >352:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+938 text23 CODE >353:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+944 text23 CODE >354:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+946 text14 CODE >503:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+948 text14 CODE >506:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+954 text14 CODE >507:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+956 text14 CODE >508:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+984 text14 CODE >509:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+98C text14 CODE >510:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9BA text14 CODE >511:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9C4 text14 CODE >512:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9E2 text14 CODE >513:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9EA text14 CODE >514:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9EC text14 CODE >515:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9EE text14 CODE >517:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+9FC text14 CODE >518:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A0A text14 CODE >519:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A10 text14 CODE >520:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A16 text14 CODE >518:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A1A text14 CODE >517:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A1E text14 CODE >523:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A20 text14 CODE >526:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+A22 text0 CODE >209:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A22 text0 CODE >211:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A26 text0 CODE >213:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A2C text0 CODE >217:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A30 text0 CODE >218:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A38 text0 CODE >220:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A3C text0 CODE >221:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A44 text0 CODE >222:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+A74 text0 CODE >223:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AA4 text0 CODE >224:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AC4 text0 CODE >225:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+ADE text0 CODE >214:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AE0 text0 CODE >230:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AE4 text11 CODE >246:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AE4 text11 CODE >248:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AE8 text11 CODE >249:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AEC text11 CODE >250:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+AF8 text11 CODE >253:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B00 text11 CODE >254:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B14 text11 CODE >255:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B40 text11 CODE >257:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B54 text11 CODE >258:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B80 text11 CODE >259:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+B82 text6 CODE >8:E:\XC8\sources\common\awdiv.c
+B82 text6 CODE >14:E:\XC8\sources\common\awdiv.c
+B86 text6 CODE >15:E:\XC8\sources\common\awdiv.c
+B8A text6 CODE >16:E:\XC8\sources\common\awdiv.c
+B92 text6 CODE >17:E:\XC8\sources\common\awdiv.c
+B98 text6 CODE >19:E:\XC8\sources\common\awdiv.c
+B9C text6 CODE >20:E:\XC8\sources\common\awdiv.c
+BA4 text6 CODE >21:E:\XC8\sources\common\awdiv.c
+BAA text6 CODE >23:E:\XC8\sources\common\awdiv.c
+BB2 text6 CODE >24:E:\XC8\sources\common\awdiv.c
+BBA text6 CODE >25:E:\XC8\sources\common\awdiv.c
+BBE text6 CODE >26:E:\XC8\sources\common\awdiv.c
+BC0 text6 CODE >27:E:\XC8\sources\common\awdiv.c
+BC6 text6 CODE >28:E:\XC8\sources\common\awdiv.c
+BCA text6 CODE >26:E:\XC8\sources\common\awdiv.c
+BD2 text6 CODE >31:E:\XC8\sources\common\awdiv.c
+BD8 text6 CODE >32:E:\XC8\sources\common\awdiv.c
+BE4 text6 CODE >33:E:\XC8\sources\common\awdiv.c
+BEC text6 CODE >34:E:\XC8\sources\common\awdiv.c
+BF0 text6 CODE >36:E:\XC8\sources\common\awdiv.c
+BF6 text6 CODE >37:E:\XC8\sources\common\awdiv.c
+BFC text6 CODE >39:E:\XC8\sources\common\awdiv.c
+C02 text6 CODE >40:E:\XC8\sources\common\awdiv.c
+C0C text6 CODE >41:E:\XC8\sources\common\awdiv.c
+C16 text6 CODE >42:E:\XC8\sources\common\awdiv.c
+C18 text19 CODE >416:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C1A text19 CODE >419:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C26 text19 CODE >420:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C28 text19 CODE >421:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C56 text19 CODE >422:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C60 text19 CODE >423:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C68 text19 CODE >424:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C80 text19 CODE >425:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C82 text19 CODE >426:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C84 text19 CODE >428:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C86 text19 CODE >429:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C8C text19 CODE >430:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C94 text19 CODE >428:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C9C text19 CODE >432:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+C9E text19 CODE >435:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+CA0 intcode_body CODE >28:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+CCE intcode_body CODE >30:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+CD8 intcode_body CODE >31:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+CE2 intcode_body CODE >32:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+D1C cinit CODE >1477:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D1C cinit CODE >1479:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D1C cinit CODE >1482:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D1C cinit CODE >1685:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D20 cinit CODE >1686:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D22 cinit CODE >1687:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D22 cinit CODE >1688:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D24 cinit CODE >1689:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D26 cinit CODE >1690:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D28 cinit CODE >1693:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D2C cinit CODE >1694:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D2E cinit CODE >1695:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D2E cinit CODE >1696:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D30 cinit CODE >1697:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D32 cinit CODE >1698:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D34 cinit CODE >1703:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D36 cinit CODE >1704:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D38 cinit CODE >1705:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D3A cinit CODE >1706:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D3C cinit CODE >1707:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D3E cinit CODE >1708:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D40 cinit CODE >1709:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D44 cinit CODE >1710:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D48 cinit CODE >1711:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D48 cinit CODE >1712:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D4A cinit CODE >1713:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D4E cinit CODE >1714:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D50 cinit CODE >1715:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D52 cinit CODE >1716:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D54 cinit CODE >1720:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D56 cinit CODE >1721:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D58 cinit CODE >1722:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D5A cinit CODE >1723:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D5C cinit CODE >1724:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D5E cinit CODE >1725:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D60 cinit CODE >1726:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D64 cinit CODE >1727:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D68 cinit CODE >1728:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D68 cinit CODE >1729:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D6A cinit CODE >1730:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D6E cinit CODE >1731:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D70 cinit CODE >1732:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D72 cinit CODE >1733:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D74 cinit CODE >1737:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D76 cinit CODE >1738:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D78 cinit CODE >1739:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D7A cinit CODE >1740:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D7C cinit CODE >1741:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D7E cinit CODE >1742:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D80 cinit CODE >1743:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D82 cinit CODE >1744:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D86 cinit CODE >1745:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D88 cinit CODE >1746:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D8C cinit CODE >1752:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D8C cinit CODE >1754:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D8E cinit CODE >1755:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D90 cinit CODE >1756:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D92 cinit CODE >1757:C:\Users\johnn\AppData\Local\Temp\s2vrs.
+D96 text9 CODE >73:E:\XC8\sources\pic18\plib\USART\uopen.c
+D98 text9 CODE >75:E:\XC8\sources\pic18\plib\USART\uopen.c
+D9C text9 CODE >76:E:\XC8\sources\pic18\plib\USART\uopen.c
+DA0 text9 CODE >78:E:\XC8\sources\pic18\plib\USART\uopen.c
+DA4 text9 CODE >79:E:\XC8\sources\pic18\plib\USART\uopen.c
+DA8 text9 CODE >81:E:\XC8\sources\pic18\plib\USART\uopen.c
+DAC text9 CODE >83:E:\XC8\sources\pic18\plib\USART\uopen.c
+DAE text9 CODE >84:E:\XC8\sources\pic18\plib\USART\uopen.c
+DB2 text9 CODE >87:E:\XC8\sources\pic18\plib\USART\uopen.c
+DB6 text9 CODE >88:E:\XC8\sources\pic18\plib\USART\uopen.c
+DBA text9 CODE >90:E:\XC8\sources\pic18\plib\USART\uopen.c
+DBE text9 CODE >91:E:\XC8\sources\pic18\plib\USART\uopen.c
+DC2 text9 CODE >92:E:\XC8\sources\pic18\plib\USART\uopen.c
+DC2 text9 CODE >93:E:\XC8\sources\pic18\plib\USART\uopen.c
+DC6 text9 CODE >95:E:\XC8\sources\pic18\plib\USART\uopen.c
+DC8 text9 CODE >96:E:\XC8\sources\pic18\plib\USART\uopen.c
+DCA text9 CODE >98:E:\XC8\sources\pic18\plib\USART\uopen.c
+DCC text9 CODE >100:E:\XC8\sources\pic18\plib\USART\uopen.c
+DD0 text9 CODE >101:E:\XC8\sources\pic18\plib\USART\uopen.c
+DD4 text9 CODE >103:E:\XC8\sources\pic18\plib\USART\uopen.c
+DD8 text9 CODE >104:E:\XC8\sources\pic18\plib\USART\uopen.c
+DDC text9 CODE >105:E:\XC8\sources\pic18\plib\USART\uopen.c
+DDC text9 CODE >106:E:\XC8\sources\pic18\plib\USART\uopen.c
+DDE text9 CODE >108:E:\XC8\sources\pic18\plib\USART\uopen.c
+DE0 text9 CODE >110:E:\XC8\sources\pic18\plib\USART\uopen.c
+DE4 text9 CODE >111:E:\XC8\sources\pic18\plib\USART\uopen.c
+DE8 text9 CODE >112:E:\XC8\sources\pic18\plib\USART\uopen.c
+DE8 text9 CODE >113:E:\XC8\sources\pic18\plib\USART\uopen.c
+DEA text9 CODE >115:E:\XC8\sources\pic18\plib\USART\uopen.c
+DEE text9 CODE >116:E:\XC8\sources\pic18\plib\USART\uopen.c
+DF2 text9 CODE >118:E:\XC8\sources\pic18\plib\USART\uopen.c
+DF4 text9 CODE >119:E:\XC8\sources\pic18\plib\USART\uopen.c
+DF6 text9 CODE >137:E:\XC8\sources\pic18\plib\USART\uopen.c
+DFA text9 CODE >138:E:\XC8\sources\pic18\plib\USART\uopen.c
+E00 text9 CODE >139:E:\XC8\sources\pic18\plib\USART\uopen.c
+E04 text9 CODE >143:E:\XC8\sources\pic18\plib\USART\uopen.c
+E06 text36 CODE >67:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E06 text36 CODE >70:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E0A text36 CODE >71:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E0E text36 CODE >73:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E12 text36 CODE >74:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E16 text36 CODE >75:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E1A text36 CODE >76:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E1E text36 CODE >77:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E22 text36 CODE >78:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E26 text36 CODE >79:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E2A text36 CODE >81:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E2E text36 CODE >82:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E36 text36 CODE >83:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E3C text36 CODE >84:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E42 text36 CODE >85:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E48 text36 CODE >86:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E4E text36 CODE >87:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E54 text36 CODE >88:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E5A text36 CODE >89:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E60 text36 CODE >90:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E66 text36 CODE >91:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E6A text36 CODE >92:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E6C text37 CODE >45:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E6C text37 CODE >47:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E70 text37 CODE >48:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E74 text37 CODE >50:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E78 text37 CODE >51:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E80 text37 CODE >52:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E86 text37 CODE >53:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E8A text37 CODE >54:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E92 text37 CODE >56:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+E9A text37 CODE >57:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+EA2 text37 CODE >58:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+EAA text37 CODE >59:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+EB2 text37 CODE >60:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+EBA text37 CODE >61:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+EC2 text37 CODE >62:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+ECA text37 CODE >64:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+ECE text37 CODE >65:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+ED0 text5 CODE >8:E:\XC8\sources\common\lwdiv.c
+ED0 text5 CODE >14:E:\XC8\sources\common\lwdiv.c
+ED8 text5 CODE >15:E:\XC8\sources\common\lwdiv.c
+EE0 text5 CODE >16:E:\XC8\sources\common\lwdiv.c
+EE4 text5 CODE >17:E:\XC8\sources\common\lwdiv.c
+EE6 text5 CODE >18:E:\XC8\sources\common\lwdiv.c
+EEC text5 CODE >19:E:\XC8\sources\common\lwdiv.c
+EF0 text5 CODE >17:E:\XC8\sources\common\lwdiv.c
+EF8 text5 CODE >22:E:\XC8\sources\common\lwdiv.c
+EFE text5 CODE >23:E:\XC8\sources\common\lwdiv.c
+F0A text5 CODE >24:E:\XC8\sources\common\lwdiv.c
+F12 text5 CODE >25:E:\XC8\sources\common\lwdiv.c
+F16 text5 CODE >27:E:\XC8\sources\common\lwdiv.c
+F1C text5 CODE >28:E:\XC8\sources\common\lwdiv.c
+F22 text5 CODE >29:E:\XC8\sources\common\lwdiv.c
+F22 text5 CODE >30:E:\XC8\sources\common\lwdiv.c
+F2A text5 CODE >31:E:\XC8\sources\common\lwdiv.c
+F80 text30 CODE >64:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+F80 text30 CODE >71:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+F9C text30 CODE >72:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FB8 text30 CODE >74:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FBC text30 CODE >76:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FC0 text30 CODE >77:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FC4 text30 CODE >79:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FC6 text30 CODE >80:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FC8 text30 CODE >82:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FCE text30 CODE >83:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FD0 text30 CODE >84:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FD2 text21 CODE >392:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FD4 text21 CODE >394:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FDA text21 CODE >395:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FE0 text21 CODE >396:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FE8 text21 CODE >397:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FEE text21 CODE >398:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FF6 text21 CODE >399:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+FFC text21 CODE >400:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1002 text21 CODE >401:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+100A text21 CODE >402:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1010 text21 CODE >403:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1018 text21 CODE >404:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+101E text21 CODE >405:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1020 text4 CODE >8:E:\XC8\sources\common\lwmod.c
+1020 text4 CODE >13:E:\XC8\sources\common\lwmod.c
+1028 text4 CODE >14:E:\XC8\sources\common\lwmod.c
+102C text4 CODE >15:E:\XC8\sources\common\lwmod.c
+102E text4 CODE >16:E:\XC8\sources\common\lwmod.c
+1034 text4 CODE >17:E:\XC8\sources\common\lwmod.c
+1038 text4 CODE >15:E:\XC8\sources\common\lwmod.c
+1040 text4 CODE >20:E:\XC8\sources\common\lwmod.c
+104C text4 CODE >21:E:\XC8\sources\common\lwmod.c
+1056 text4 CODE >22:E:\XC8\sources\common\lwmod.c
+105C text4 CODE >23:E:\XC8\sources\common\lwmod.c
+1062 text4 CODE >24:E:\XC8\sources\common\lwmod.c
+1062 text4 CODE >25:E:\XC8\sources\common\lwmod.c
+106A text4 CODE >26:E:\XC8\sources\common\lwmod.c
+106C text18 CODE >437:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+106E text18 CODE >441:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1076 text18 CODE >443:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+108C text18 CODE >441:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+10B4 text18 CODE >445:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1100 text42 CODE >20:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1102 text42 CODE >23:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1106 text42 CODE >24:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1112 text42 CODE >26:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1116 text42 CODE >28:E:\MPLab\Projects\Lab10p2.X\I2C.c
+111A text42 CODE >29:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1120 text42 CODE >31:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1128 text42 CODE >32:E:\MPLab\Projects\Lab10p2.X\I2C.c
+112C text42 CODE >24:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1130 text42 CODE >34:E:\MPLab\Projects\Lab10p2.X\I2C.c
+113C text42 CODE >35:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1142 text42 CODE >38:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1146 text42 CODE >39:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1148 text7 CODE >190:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1148 text7 CODE >193:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+114C text7 CODE >194:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1150 text7 CODE >196:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1154 text7 CODE >197:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1158 text7 CODE >198:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+115C text7 CODE >199:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1160 text7 CODE >200:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1164 text7 CODE >201:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1168 text7 CODE >202:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+116C text7 CODE >203:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+116E text7 CODE >204:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1172 text7 CODE >205:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1176 text7 CODE >206:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+118A text7 CODE >207:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+118C text16 CODE >4:E:\XC8\sources\common\strlen.c
+118C text16 CODE >8:E:\XC8\sources\common\strlen.c
+1194 text16 CODE >9:E:\XC8\sources\common\strlen.c
+1196 text16 CODE >10:E:\XC8\sources\common\strlen.c
+119C text16 CODE >9:E:\XC8\sources\common\strlen.c
+11AA text16 CODE >12:E:\XC8\sources\common\strlen.c
+11C8 text16 CODE >13:E:\XC8\sources\common\strlen.c
+11CA text24 CODE >328:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11CA text24 CODE >330:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11D0 text24 CODE >331:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11DC text24 CODE >332:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11E8 text24 CODE >333:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11EE text24 CODE >334:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+11FA text24 CODE >335:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1206 text24 CODE >336:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1208 text39 CODE >41:E:\MPLab\Projects\Lab10p2.X\I2C.c
+120A text39 CODE >44:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1216 text39 CODE >45:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1216 text39 CODE >46:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1220 text39 CODE >47:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1226 text39 CODE >48:E:\MPLab\Projects\Lab10p2.X\I2C.c
+122A text39 CODE >49:E:\MPLab\Projects\Lab10p2.X\I2C.c
+122E text39 CODE >50:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1234 text39 CODE >44:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1238 text39 CODE >52:E:\MPLab\Projects\Lab10p2.X\I2C.c
+123C text39 CODE >53:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1240 text39 CODE >54:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1244 text39 CODE >55:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1246 text38 CODE >29:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1246 text38 CODE >31:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+124A text38 CODE >32:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+124E text38 CODE >35:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1252 text38 CODE >36:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+125A text38 CODE >37:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1260 text38 CODE >38:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1264 text38 CODE >39:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+126C text38 CODE >40:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1274 text38 CODE >41:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1278 text38 CODE >42:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1280 text38 CODE >43:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+1282 text12 CODE >8:E:\XC8\sources\common\strcpy.c
+1282 text12 CODE >18:E:\XC8\sources\common\strcpy.c
+128A text12 CODE >19:E:\XC8\sources\common\strcpy.c
+128C text12 CODE >20:E:\XC8\sources\common\strcpy.c
+1290 text12 CODE >21:E:\XC8\sources\common\strcpy.c
+1296 text12 CODE >19:E:\XC8\sources\common\strcpy.c
+12B2 text12 CODE >24:E:\XC8\sources\common\strcpy.c
+12B4 text10 CODE >13:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12B4 text10 CODE >15:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12B6 text10 CODE >16:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12B8 text10 CODE >17:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12BA text10 CODE >18:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12BE text10 CODE >19:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12C2 text10 CODE >20:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12C4 text10 CODE >21:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12C6 text10 CODE >22:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12C8 text10 CODE >23:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12CA text10 CODE >24:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12D2 text10 CODE >25:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12E2 text10 CODE >26:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+12E4 text20 CODE >407:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+12E6 text20 CODE >409:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+12F2 text20 CODE >410:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+12F4 text20 CODE >411:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1306 text20 CODE >412:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+130C text20 CODE >413:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1312 text20 CODE >414:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1314 text22 CODE >644:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1314 text22 CODE >646:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1316 text22 CODE >647:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1318 text22 CODE >649:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+131C text22 CODE >650:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1320 text22 CODE >653:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1324 text22 CODE >654:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1328 text22 CODE >655:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+132C text22 CODE >656:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1332 text22 CODE >657:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1338 text22 CODE >658:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+133C text22 CODE >659:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+133E text31 CODE >15:E:\XC8\sources\common\Umul16.c
+133E text31 CODE >37:E:\XC8\sources\common\Umul16.c
+134A text31 CODE >38:E:\XC8\sources\common\Umul16.c
+1352 text31 CODE >39:E:\XC8\sources\common\Umul16.c
+135A text31 CODE >52:E:\XC8\sources\common\Umul16.c
+1364 text31 CODE >53:E:\XC8\sources\common\Umul16.c
+1366 text3 CODE >8:E:\XC8\sources\common\isdigit.c
+1368 text3 CODE >14:E:\XC8\sources\common\isdigit.c
+1386 text3 CODE >15:E:\XC8\sources\common\isdigit.c
+1388 text34 CODE >152:E:\MPLab\Projects\Lab10p2.X\I2C.c
+138A text34 CODE >154:E:\MPLab\Projects\Lab10p2.X\I2C.c
+138E text34 CODE >155:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1396 text34 CODE >156:E:\MPLab\Projects\Lab10p2.X\I2C.c
+139C text34 CODE >157:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13A2 text34 CODE >158:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13A6 text34 CODE >159:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13A8 text33 CODE >21:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+13A8 text33 CODE >23:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+13AC text33 CODE >24:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+13BA text33 CODE >25:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+13C4 text33 CODE >26:E:\MPLab\Projects\Lab10p2.X\I2C_Support.c
+13C6 text13 CODE >619:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+13C6 text13 CODE >621:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+13E0 text13 CODE >622:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+13E2 text35 CODE >144:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13E4 text35 CODE >146:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13E8 text35 CODE >147:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13F0 text35 CODE >148:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13F6 text35 CODE >149:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13FA text35 CODE >150:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13FC text45 CODE >79:E:\MPLab\Projects\Lab10p2.X\I2C.c
+13FC text45 CODE >81:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1400 text45 CODE >82:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1404 text45 CODE >83:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1408 text45 CODE >84:E:\MPLab\Projects\Lab10p2.X\I2C.c
+140C text45 CODE >85:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1410 text45 CODE >86:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1412 text8 CODE >155:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1412 text8 CODE >159:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1420 text8 CODE >160:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1424 text8 CODE >161:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+1426 text28 CODE >189:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1428 text28 CODE >192:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+142A text28 CODE >193:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+142E text28 CODE >194:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1432 text28 CODE >195:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1438 text28 CODE >196:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+143A text29 CODE >217:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+143A text29 CODE >219:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+143C text29 CODE >220:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1448 text29 CODE >221:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+144A text29 CODE >222:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+144C text40 CODE >88:E:\MPLab\Projects\Lab10p2.X\I2C.c
+144C text40 CODE >90:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1450 text40 CODE >91:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1454 text40 CODE >92:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1458 text40 CODE >93:E:\MPLab\Projects\Lab10p2.X\I2C.c
+145C text40 CODE >94:E:\MPLab\Projects\Lab10p2.X\I2C.c
+145E text41 CODE >71:E:\MPLab\Projects\Lab10p2.X\I2C.c
+145E text41 CODE >73:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1462 text41 CODE >74:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1466 text41 CODE >75:E:\MPLab\Projects\Lab10p2.X\I2C.c
+146A text41 CODE >76:E:\MPLab\Projects\Lab10p2.X\I2C.c
+146E text41 CODE >77:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1470 text44 CODE >63:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1470 text44 CODE >65:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1474 text44 CODE >66:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1478 text44 CODE >67:E:\MPLab\Projects\Lab10p2.X\I2C.c
+147C text44 CODE >68:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1480 text44 CODE >69:E:\MPLab\Projects\Lab10p2.X\I2C.c
+1482 text26 CODE >209:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1484 text26 CODE >211:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1486 text26 CODE >212:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1488 text26 CODE >213:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+148E text26 CODE >214:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1490 text26 CODE >215:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1492 text27 CODE >198:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1494 text27 CODE >200:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1496 text27 CODE >202:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+1498 text27 CODE >203:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+149E text27 CODE >205:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+14A0 text27 CODE >207:E:\MPLab\Projects\Lab10p2.X\ST7735_TFT.c
+14A2 text2 CODE >149:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+14A4 text2 CODE >151:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+14AA text2 CODE >152:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+14AE text2 CODE >153:E:\MPLab\Projects\Lab10p2.X\Lab10p2.c
+14B0 text49 CODE >109:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14B0 text49 CODE >111:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14B2 text49 CODE >112:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14BA text49 CODE >113:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14BC text51 CODE >34:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14BC text51 CODE >36:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14C0 text51 CODE >37:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14C2 text51 CODE >38:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14C4 text51 CODE >39:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14C6 text51 CODE >40:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14C8 text32 CODE >14:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14C8 text32 CODE >16:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14CC text32 CODE >17:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14D0 text32 CODE >18:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14D2 text43 CODE >57:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14D2 text43 CODE >59:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14D6 text43 CODE >60:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14DA text43 CODE >61:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14DC text46 CODE >102:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14DC text46 CODE >104:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14DE text46 CODE >105:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14E0 text46 CODE >106:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14E4 text46 CODE >107:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14E6 text47 CODE >115:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14E6 text47 CODE >117:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14E8 text47 CODE >118:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14EA text47 CODE >119:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14EC text47 CODE >120:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14EE text48 CODE >96:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14EE text48 CODE >98:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14F0 text48 CODE >99:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14F4 text48 CODE >100:E:\MPLab\Projects\Lab10p2.X\I2C.c
+14F6 text53 CODE >42:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14F6 text53 CODE >44:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14FA text53 CODE >45:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+14FC text53 CODE >46:E:\MPLab\Projects\Lab10p2.X\Interrupt.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__end_of_spiwrite 143A 0 CODE 0 text28 dist/default/production\Lab10p2.X.production.obj
+_i 5B 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+___awdiv@counter 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___lwmod@counter 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\Lab10p2.X.production.obj
+__Lmediumconst FD9A 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_DS3231_Setup_Time E06 0 CODE 0 text36 dist/default/production\Lab10p2.X.production.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Hspace_1 154 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Hspace_2 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Lab10p2.X.production.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\Lab10p2.X.production.obj
+__end_of_write_data 1492 0 CODE 0 text26 dist/default/production\Lab10p2.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Lab10p2.X.production.obj
+__mediumconst FD9A 0 MEDIUMCONST 0 mediumconst C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+__end_of_DS3231_Read_Time ED0 0 CODE 0 text37 dist/default/production\Lab10p2.X.production.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Lab10p2.X.production.obj
+drawtext@cursor_x F6 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+drawtext@cursor_y F5 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+_T1CONbits FCD 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+drawtext@i F3 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+drawtext@x F0 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+drawtext@y E8 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Start 1470 0 CODE 0 text41 dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Write 1246 0 CODE 0 text39 dist/default/production\Lab10p2.X.production.obj
+main@U 3B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_DS3231_Read_Time 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Lab10p2.X.production.obj
+_RBPU 7F8F 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRMT 7D61 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+_font FD9B 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_hour 5A 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_main A22 0 CODE 0 text0 dist/default/production\Lab10p2.X.production.obj
+_txt1 100 0 BANK1 1 dataBANK1 dist/default/production\Lab10p2.X.production.obj
+_wrap 6E 0 COMRAM 1 dataCOMRAM dist/default/production\Lab10p2.X.production.obj
+_year 6C 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Start 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Write 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+start 18 0 CODE 0 init C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cLowScl 14EE 0 CODE 0 text47 dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cLowSda 14E6 0 CODE 0 text46 dist/default/production\Lab10p2.X.production.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Nec_code1 4D 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cLowScl 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cLowSda 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_Nec_state 4E 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Display_D1 BF 0 BANK0 1 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+_fillRectangle 946 0 CODE 0 text14 dist/default/production\Lab10p2.X.production.obj
+?___wmul 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+DS3231_Read_Time@Address 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_I2C_ReStart 13FC 0 CODE 0 text45 dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Init 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Read 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Stop 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_Do_Init 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Lab10p2.X.production.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/production\Lab10p2.X.production.obj
+__CFG_CCP2MX$PORTBE 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+drawtext@_text E9 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+drawtext@color EB 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+_I2C_Start 145E 0 CODE 0 text41 dist/default/production\Lab10p2.X.production.obj
+__Hpowerup 18 0 CODE 0 powerup dist/default/production\Lab10p2.X.production.obj
+_I2C_Write 1208 0 CODE 0 text39 dist/default/production\Lab10p2.X.production.obj
+printf@c 38 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+printf@f 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Lab10p2.X.production.obj
+_i2cLowScl 14E6 0 CODE 0 text47 dist/default/production\Lab10p2.X.production.obj
+_i2cLowSda 14DC 0 CODE 0 text46 dist/default/production\Lab10p2.X.production.obj
+I2C_Write@n 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__accesstop 80 0 ABS 0 - C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+intlevel0 0 0 CODE 0 text C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+intlevel1 0 0 CODE 0 text C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+intlevel2 0 0 CODE 0 text C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+intlevel3 0 0 CODE 0 text C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+I2C_Write_Cmd_Write_Data@Cmd 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Lab10p2.X.production.obj
+fillScreen@color 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_prev_second 5E 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\Lab10p2.X.production.obj
+___awdiv@sign 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+setAddrWindow@x0 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+setAddrWindow@x1 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+setAddrWindow@y0 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+setAddrWindow@y1 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\Lab10p2.X.production.obj
+__size_of_fillScreen 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__pidataCOMRAM 14FE 0 CODE 0 idataCOMRAM dist/default/production\Lab10p2.X.production.obj
+___wmul@multiplicand 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+printf@flag 35 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+printf@prec 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_ADCON1 FC1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___awdiv@dividend 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+printf@width 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\Lab10p2.X.production.obj
+I2C_Init@c 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_force_nec_state0 14F6 0 CODE 0 text53 dist/default/production\Lab10p2.X.production.obj
+_CCPR2L FBB 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_i2cNack 14D2 0 CODE 0 text43 dist/default/production\Lab10p2.X.production.obj
+_I2C_Init 14C8 0 CODE 0 text32 dist/default/production\Lab10p2.X.production.obj
+_I2C_Read 1100 0 CODE 0 text42 dist/default/production\Lab10p2.X.production.obj
+_I2C_Stop 144C 0 CODE 0 text40 dist/default/production\Lab10p2.X.production.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Lab10p2.X.production.obj
+__end_of___wmul 1366 0 CODE 0 text31 dist/default/production\Lab10p2.X.production.obj
+_setup_day 64 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Device 4C 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Lab10p2.X.production.obj
+fillRect@color 26 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+DS1621_Read_Temp@Data_Ret 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+?_printf 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Init 14D2 0 CODE 0 text32 dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Read 1148 0 CODE 0 text42 dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Stop 145E 0 CODE 0 text40 dist/default/production\Lab10p2.X.production.obj
+_TFT_GreenTab_Initialize 1314 0 CODE 0 text22 dist/default/production\Lab10p2.X.production.obj
+__Hintcodelo 18 0 CODE 0 intcodelo dist/default/production\Lab10p2.X.production.obj
+I2C_Write@outByte 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___awdiv@divisor 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___lwmod@divisor 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of___awdiv C18 0 CODE 0 text6 dist/default/production\Lab10p2.X.production.obj
+_tempSecond 6D 0 COMRAM 1 dataCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of___lwdiv F2C 0 CODE 0 text5 dist/default/production\Lab10p2.X.production.obj
+__end_of___lwmod 106C 0 CODE 0 text4 dist/default/production\Lab10p2.X.production.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_TFT_GreenTab_Initialize 133E 0 CODE 0 text22 dist/default/production\Lab10p2.X.production.obj
+__end_of_chkisr D1C 0 CODE 0 intcode_body dist/default/production\Lab10p2.X.production.obj
+fillRectangle@hi 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRectangle@lo 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cHighScl 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cHighSda 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_init_INTERRUPT 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+?_strlen 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_alarm_minute 53 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+I2C_Write_Cmd_Only@Device 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_dpowers FF76 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+__end_of_Do_Init 118C 0 CODE 0 text7 dist/default/production\Lab10p2.X.production.obj
+__size_of_fillRectangle 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+DS3231_Setup_Time@Device 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_drawFastVLine C18 0 CODE 0 text19 dist/default/production\Lab10p2.X.production.obj
+__end_of_DS1621_Init 13C6 0 CODE 0 text33 dist/default/production\Lab10p2.X.production.obj
+__size_of_Rcmd1 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_Rcmd3 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+I2C_Read@n 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@hi 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@lo 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___lwdiv@quotient 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_putch 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cAck 1482 0 CODE 0 text44 dist/default/production\Lab10p2.X.production.obj
+_INTCON2bits FF1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___lwmod@dividend 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/production\Lab10p2.X.production.obj
+start_initialization D1C 0 CODE 0 cinit dist/default/production\Lab10p2.X.production.obj
+__end_of_hexpowers FF88 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_OSCCON FD3 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@line 35 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@size 34 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_alarm_second 54 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_TRISCbits F94 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_write_data 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_Initialize_Screen 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___rparam_used 1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_setup_month 67 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+DS3231_Setup_Time@Address 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_setAddrWindow FD2 0 CODE 0 text21 dist/default/production\Lab10p2.X.production.obj
+__end_of_fillRectangle A22 0 CODE 0 text14 dist/default/production\Lab10p2.X.production.obj
+__end_of_OpenUSART E06 0 CODE 0 text9 dist/default/production\Lab10p2.X.production.obj
+_SPBRGH FB0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__pcstackBANK0 E8 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+_SSPBUF FC9 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_OpenUSART 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+DS1621_Read_Temp@Cmd 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_hexpowers FF80 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+__end_of_printf 376 0 CODE 0 text1 dist/default/production\Lab10p2.X.production.obj
+_setup_alarm_hour 61 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_force_nec_state0 14FE 0 CODE 0 text53 dist/default/production\Lab10p2.X.production.obj
+__end_of_LCD_Reset 144C 0 CODE 0 text29 dist/default/production\Lab10p2.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\Lab10p2.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\Lab10p2.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\Lab10p2.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\Lab10p2.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\Lab10p2.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\Lab10p2.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\Lab10p2.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\Lab10p2.X.production.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\Lab10p2.X.production.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\Lab10p2.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production\Lab10p2.X.production.obj
+__Hconst 0 0 CODE 0 const dist/default/production\Lab10p2.X.production.obj
+__end_of_strcpy 12B4 0 CODE 0 text12 dist/default/production\Lab10p2.X.production.obj
+__end_of_strlen 11CA 0 CODE 0 text16 dist/default/production\Lab10p2.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production\Lab10p2.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production\Lab10p2.X.production.obj
+__size_of_force_nec_state0 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Lab10p2.X.production.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\Lab10p2.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\Lab10p2.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production\Lab10p2.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production\Lab10p2.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production\Lab10p2.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production\Lab10p2.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production\Lab10p2.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production\Lab10p2.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production\Lab10p2.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production\Lab10p2.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production\Lab10p2.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production\Lab10p2.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production\Lab10p2.X.production.obj
+___lwdiv@counter 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_LCD_Reset 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_OpenUSART D96 0 CODE 0 text9 dist/default/production\Lab10p2.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\Lab10p2.X.production.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\Lab10p2.X.production.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\Lab10p2.X.production.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\Lab10p2.X.production.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\Lab10p2.X.production.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/production\Lab10p2.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Lab10p2.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production\Lab10p2.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+DS1621_Init@Device 16 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production\Lab10p2.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production\Lab10p2.X.production.obj
+I2C_Write_Cmd_Only@Cmd 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_DS1621_Read_Temp 1246 0 CODE 0 text38 dist/default/production\Lab10p2.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\Lab10p2.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\Lab10p2.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\Lab10p2.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\Lab10p2.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\Lab10p2.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\Lab10p2.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\Lab10p2.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\Lab10p2.X.production.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\Lab10p2.X.production.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\Lab10p2.X.production.obj
+__end_of_isdigit 1388 0 CODE 0 text3 dist/default/production\Lab10p2.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production\Lab10p2.X.production.obj
+__Lconst 0 0 CODE 0 const dist/default/production\Lab10p2.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production\Lab10p2.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production\Lab10p2.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Lab10p2.X.production.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\Lab10p2.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\Lab10p2.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production\Lab10p2.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production\Lab10p2.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production\Lab10p2.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production\Lab10p2.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production\Lab10p2.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production\Lab10p2.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production\Lab10p2.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production\Lab10p2.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production\Lab10p2.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production\Lab10p2.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production\Lab10p2.X.production.obj
+_I2C_Write_Cmd_Write_Data 1388 0 CODE 0 text34 dist/default/production\Lab10p2.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Lab10p2.X.production.obj
+_Nec_code 3E 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Lab10p2.X.production.obj
+_PORTBbits F81 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_PORTCbits F82 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_LCD_Reset 143A 0 CODE 0 text29 dist/default/production\Lab10p2.X.production.obj
+_PORTDbits F83 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_PORTEbits F84 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Write_Cmd_Only 13FC 0 CODE 0 text35 dist/default/production\Lab10p2.X.production.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__CFG_OSC$INTIO67 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_setup_hour 65 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_setup_year 69 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production\Lab10p2.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production\Lab10p2.X.production.obj
+__Hinit 18 0 CODE 0 init dist/default/production\Lab10p2.X.production.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\Lab10p2.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\Lab10p2.X.production.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/production\Lab10p2.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production\Lab10p2.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production\Lab10p2.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production\Lab10p2.X.production.obj
+__Linit 18 0 CODE 0 init dist/default/production\Lab10p2.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\Lab10p2.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\Lab10p2.X.production.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\Lab10p2.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production\Lab10p2.X.production.obj
+___wmul 133E 0 CODE 0 text31 dist/default/production\Lab10p2.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+__size_of_drawFastVLine 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production\Lab10p2.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production\Lab10p2.X.production.obj
+_Cmd 4B 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_PR2 FCB 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__S1 154 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_day 57 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_dow 58 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_nbr 44 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_txt 48 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_ReStart 1412 0 CODE 0 text45 dist/default/production\Lab10p2.X.production.obj
+_array1 AA 0 BANK0 1 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+_setup_minute 66 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_buffer C9 0 BANK0 1 bssBANK0 dist/default/production\Lab10p2.X.production.obj
+I2C_Write_Cmd_Write_Data@Device 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_chkisr 8 0 CODE 0 intcode dist/default/production\Lab10p2.X.production.obj
+__size_of_Rcmd2red 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+fillRect@h 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRect@i 2C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRect@w 24 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRect@x 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRect@y 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_TIMER1_isr 14BC 0 CODE 0 text51 dist/default/production\Lab10p2.X.production.obj
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Lab10p2.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Lab10p2.X.production.obj
+__size_of_drawChar 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_drawtext 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+strcpy@cp 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+strcpy@to 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+int_func CA0 0 CODE 0 intcode_body dist/default/production\Lab10p2.X.production.obj
+_I2C_Write_Cmd_Only 13E2 0 CODE 0 text35 dist/default/production\Lab10p2.X.production.obj
+__size_of_setAddrWindow 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+delay_ms@ms 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_i2cAck 1470 0 CODE 0 text44 dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@h 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@x 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@y 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_DS1621_Init 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production\Lab10p2.X.production.obj
+__end_of_drawFastVLine CA0 0 CODE 0 text19 dist/default/production\Lab10p2.X.production.obj
+_setup_second 68 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/production\Lab10p2.X.production.obj
+strlen@s 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\Lab10p2.X.production.obj
+__end_of_Initialize_Screen B82 0 CODE 0 text11 dist/default/production\Lab10p2.X.production.obj
+__pdataBANK0 80 0 BANK0 1 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+__pdataBANK1 100 0 BANK1 1 dataBANK1 dist/default/production\Lab10p2.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\Lab10p2.X.production.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Lab10p2.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production\Lab10p2.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production\Lab10p2.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production\Lab10p2.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production\Lab10p2.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production\Lab10p2.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production\Lab10p2.X.production.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production\Lab10p2.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production\Lab10p2.X.production.obj
+__Htext18 0 0 ABS 0 text18 dist/default/production\Lab10p2.X.production.obj
+__Htext19 0 0 ABS 0 text19 dist/default/production\Lab10p2.X.production.obj
+__Htext20 0 0 ABS 0 text20 dist/default/production\Lab10p2.X.production.obj
+__Htext21 0 0 ABS 0 text21 dist/default/production\Lab10p2.X.production.obj
+__Htext22 0 0 ABS 0 text22 dist/default/production\Lab10p2.X.production.obj
+__Htext23 0 0 ABS 0 text23 dist/default/production\Lab10p2.X.production.obj
+__Htext24 0 0 ABS 0 text24 dist/default/production\Lab10p2.X.production.obj
+__Htext25 0 0 ABS 0 text25 dist/default/production\Lab10p2.X.production.obj
+__Htext26 0 0 ABS 0 text26 dist/default/production\Lab10p2.X.production.obj
+__Htext27 0 0 ABS 0 text27 dist/default/production\Lab10p2.X.production.obj
+__Htext28 0 0 ABS 0 text28 dist/default/production\Lab10p2.X.production.obj
+__Htext29 0 0 ABS 0 text29 dist/default/production\Lab10p2.X.production.obj
+__Htext30 0 0 ABS 0 text30 dist/default/production\Lab10p2.X.production.obj
+__Htext31 0 0 ABS 0 text31 dist/default/production\Lab10p2.X.production.obj
+__Htext32 0 0 ABS 0 text32 dist/default/production\Lab10p2.X.production.obj
+__Htext33 0 0 ABS 0 text33 dist/default/production\Lab10p2.X.production.obj
+__Htext34 0 0 ABS 0 text34 dist/default/production\Lab10p2.X.production.obj
+__Htext35 0 0 ABS 0 text35 dist/default/production\Lab10p2.X.production.obj
+__Htext36 0 0 ABS 0 text36 dist/default/production\Lab10p2.X.production.obj
+__Htext37 0 0 ABS 0 text37 dist/default/production\Lab10p2.X.production.obj
+__Htext38 0 0 ABS 0 text38 dist/default/production\Lab10p2.X.production.obj
+__Htext39 0 0 ABS 0 text39 dist/default/production\Lab10p2.X.production.obj
+__Htext40 0 0 ABS 0 text40 dist/default/production\Lab10p2.X.production.obj
+__Htext41 0 0 ABS 0 text41 dist/default/production\Lab10p2.X.production.obj
+__Htext42 0 0 ABS 0 text42 dist/default/production\Lab10p2.X.production.obj
+__Htext43 0 0 ABS 0 text43 dist/default/production\Lab10p2.X.production.obj
+__Htext44 0 0 ABS 0 text44 dist/default/production\Lab10p2.X.production.obj
+__Htext45 0 0 ABS 0 text45 dist/default/production\Lab10p2.X.production.obj
+__Htext46 0 0 ABS 0 text46 dist/default/production\Lab10p2.X.production.obj
+__Htext47 0 0 ABS 0 text47 dist/default/production\Lab10p2.X.production.obj
+__Htext48 0 0 ABS 0 text48 dist/default/production\Lab10p2.X.production.obj
+__Htext49 0 0 ABS 0 text49 dist/default/production\Lab10p2.X.production.obj
+__Htext51 0 0 ABS 0 text51 dist/default/production\Lab10p2.X.production.obj
+__Htext52 0 0 ABS 0 text52 dist/default/production\Lab10p2.X.production.obj
+__Htext53 0 0 ABS 0 text53 dist/default/production\Lab10p2.X.production.obj
+I2C_Read@ack 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_RCSTAbits FAB 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_DS3231_Setup_Time 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+drawChar@c 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@i 38 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@j 37 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@x 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawChar@y 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_minute 5C 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_init_UART 1426 0 CODE 0 text8 dist/default/production\Lab10p2.X.production.obj
+drawtext@bg ED 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+__ptext10 12B4 0 CODE 0 text10 dist/default/production\Lab10p2.X.production.obj
+__ptext11 AE4 0 CODE 0 text11 dist/default/production\Lab10p2.X.production.obj
+__ptext12 1282 0 CODE 0 text12 dist/default/production\Lab10p2.X.production.obj
+__ptext13 13C6 0 CODE 0 text13 dist/default/production\Lab10p2.X.production.obj
+__ptext14 946 0 CODE 0 text14 dist/default/production\Lab10p2.X.production.obj
+__ptext15 62C 0 CODE 0 text15 dist/default/production\Lab10p2.X.production.obj
+__ptext16 118C 0 CODE 0 text16 dist/default/production\Lab10p2.X.production.obj
+__ptext17 4D6 0 CODE 0 text17 dist/default/production\Lab10p2.X.production.obj
+__ptext18 106C 0 CODE 0 text18 dist/default/production\Lab10p2.X.production.obj
+__ptext19 C18 0 CODE 0 text19 dist/default/production\Lab10p2.X.production.obj
+__ptext20 12E4 0 CODE 0 text20 dist/default/production\Lab10p2.X.production.obj
+__ptext21 FD2 0 CODE 0 text21 dist/default/production\Lab10p2.X.production.obj
+__ptext22 1314 0 CODE 0 text22 dist/default/production\Lab10p2.X.production.obj
+__ptext23 854 0 CODE 0 text23 dist/default/production\Lab10p2.X.production.obj
+__ptext24 11CA 0 CODE 0 text24 dist/default/production\Lab10p2.X.production.obj
+__ptext25 744 0 CODE 0 text25 dist/default/production\Lab10p2.X.production.obj
+__ptext26 1482 0 CODE 0 text26 dist/default/production\Lab10p2.X.production.obj
+__ptext27 1492 0 CODE 0 text27 dist/default/production\Lab10p2.X.production.obj
+__ptext28 1426 0 CODE 0 text28 dist/default/production\Lab10p2.X.production.obj
+__ptext29 143A 0 CODE 0 text29 dist/default/production\Lab10p2.X.production.obj
+__ptext30 F80 0 CODE 0 text30 dist/default/production\Lab10p2.X.production.obj
+__ptext31 133E 0 CODE 0 text31 dist/default/production\Lab10p2.X.production.obj
+__ptext32 14C8 0 CODE 0 text32 dist/default/production\Lab10p2.X.production.obj
+__ptext33 13A8 0 CODE 0 text33 dist/default/production\Lab10p2.X.production.obj
+__ptext34 1388 0 CODE 0 text34 dist/default/production\Lab10p2.X.production.obj
+__ptext35 13E2 0 CODE 0 text35 dist/default/production\Lab10p2.X.production.obj
+__ptext36 E06 0 CODE 0 text36 dist/default/production\Lab10p2.X.production.obj
+__ptext37 E6C 0 CODE 0 text37 dist/default/production\Lab10p2.X.production.obj
+__ptext38 1246 0 CODE 0 text38 dist/default/production\Lab10p2.X.production.obj
+__ptext39 1208 0 CODE 0 text39 dist/default/production\Lab10p2.X.production.obj
+__ptext40 144C 0 CODE 0 text40 dist/default/production\Lab10p2.X.production.obj
+__ptext41 145E 0 CODE 0 text41 dist/default/production\Lab10p2.X.production.obj
+__ptext42 1100 0 CODE 0 text42 dist/default/production\Lab10p2.X.production.obj
+__ptext43 14D2 0 CODE 0 text43 dist/default/production\Lab10p2.X.production.obj
+__ptext44 1470 0 CODE 0 text44 dist/default/production\Lab10p2.X.production.obj
+__ptext45 13FC 0 CODE 0 text45 dist/default/production\Lab10p2.X.production.obj
+__ptext46 14DC 0 CODE 0 text46 dist/default/production\Lab10p2.X.production.obj
+__ptext47 14E6 0 CODE 0 text47 dist/default/production\Lab10p2.X.production.obj
+__ptext48 14EE 0 CODE 0 text48 dist/default/production\Lab10p2.X.production.obj
+__ptext49 14B0 0 CODE 0 text49 dist/default/production\Lab10p2.X.production.obj
+__ptext51 14BC 0 CODE 0 text51 dist/default/production\Lab10p2.X.production.obj
+__ptext52 376 0 CODE 0 text52 dist/default/production\Lab10p2.X.production.obj
+__ptext53 14F6 0 CODE 0 text53 dist/default/production\Lab10p2.X.production.obj
+_nec_ok 46 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+delay_ms@count 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_init_UART 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___awdiv B82 0 CODE 0 text6 dist/default/production\Lab10p2.X.production.obj
+__end_of_DS1621_Read_Temp 1282 0 CODE 0 text38 dist/default/production\Lab10p2.X.production.obj
+__size_of_chkisr 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__pintcode_body CA0 0 CODE 0 intcode_body dist/default/production\Lab10p2.X.production.obj
+___lwdiv ED0 0 CODE 0 text5 dist/default/production\Lab10p2.X.production.obj
+___lwmod 1020 0 CODE 0 text4 dist/default/production\Lab10p2.X.production.obj
+strlen@cp 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\Lab10p2.X.production.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\Lab10p2.X.production.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\Lab10p2.X.production.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\Lab10p2.X.production.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\Lab10p2.X.production.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/production\Lab10p2.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Lab10p2.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production\Lab10p2.X.production.obj
+__end_of_setAddrWindow 1020 0 CODE 0 text21 dist/default/production\Lab10p2.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production\Lab10p2.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production\Lab10p2.X.production.obj
+_printf 1C 0 CODE 0 text1 dist/default/production\Lab10p2.X.production.obj
+__end_of_drawPixel 1314 0 CODE 0 text20 dist/default/production\Lab10p2.X.production.obj
+I2C_Read@inByte 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Rcmd2red 11CA 0 CODE 0 text24 dist/default/production\Lab10p2.X.production.obj
+__size_of_DS1621_Read_Temp 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+___wmul@multiplier 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Address 4A 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Do_Init 1148 0 CODE 0 text7 dist/default/production\Lab10p2.X.production.obj
+__size_of_drawPixel 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_setup_alarm_minute 62 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_INT0_isr 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cAck 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_TIMER1_isr 14C8 0 CODE 0 text51 dist/default/production\Lab10p2.X.production.obj
+_second 60 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_drawChar 4D6 0 CODE 0 text17 dist/default/production\Lab10p2.X.production.obj
+_drawtext 62C 0 CODE 0 text15 dist/default/production\Lab10p2.X.production.obj
+___lwdiv@divisor 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_init_UART 1412 0 CODE 0 text8 dist/default/production\Lab10p2.X.production.obj
+_strcpy 1282 0 CODE 0 text12 dist/default/production\Lab10p2.X.production.obj
+_strlen 118C 0 CODE 0 text16 dist/default/production\Lab10p2.X.production.obj
+main@tempC 3C 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+main@tempF 3D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\Lab10p2.X.production.obj
+__size_of_i2cNack 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_Rcmd2red 1208 0 CODE 0 text24 dist/default/production\Lab10p2.X.production.obj
+stackhi F7F 0 ABS 0 - C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+stacklo 154 0 ABS 0 - C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/production\Lab10p2.X.production.obj
+__end_of_drawChar 62C 0 CODE 0 text17 dist/default/production\Lab10p2.X.production.obj
+__end_of_drawtext 744 0 CODE 0 text15 dist/default/production\Lab10p2.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Write_Cmd_Write_Data 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production\Lab10p2.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_drawPixel 12E4 0 CODE 0 text20 dist/default/production\Lab10p2.X.production.obj
+strcpy@from 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_write_command 1492 0 CODE 0 text27 dist/default/production\Lab10p2.X.production.obj
+_setup_alarm_second 63 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lspace_0 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lspace_1 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lspace_2 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+fillRectangle@h 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRectangle@w 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRectangle@x 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+fillRectangle@y 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__pbssCOMRAM 3E 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+_init_INTERRUPT 12B4 0 CODE 0 text10 dist/default/production\Lab10p2.X.production.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lend_init 18 0 CODE 0 end_init dist/default/production\Lab10p2.X.production.obj
+__size_of_delay_ms 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+printf@ap 30 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_fillScreen 13C6 0 CODE 0 text13 dist/default/production\Lab10p2.X.production.obj
+end_of_initialization D8C 0 CODE 0 cinit dist/default/production\Lab10p2.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Lab10p2.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production\Lab10p2.X.production.obj
+__size_of_printf 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_TFT_GreenTab_Initialize 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+spiwrite@x 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+write_data@data_ 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___awdiv@quotient 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+?___awdiv 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__tft_type 50 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+___lwdiv@dividend 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+?___lwdiv 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+?___lwmod 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_TempSecond 4F 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_Time_Elapsed 42 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\Lab10p2.X.production.obj
+_Initialize_Screen AE4 0 CODE 0 text11 dist/default/production\Lab10p2.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_ReStart 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+fillRectangle@color 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/production\Lab10p2.X.production.obj
+__size_of_strcpy 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__size_of_strlen 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\Lab10p2.X.production.obj
+__pcinit D1C 0 CODE 0 cinit dist/default/production\Lab10p2.X.production.obj
+__size_of_fillRect 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__ptext0 A22 0 CODE 0 text0 dist/default/production\Lab10p2.X.production.obj
+__ptext1 1C 0 CODE 0 text1 dist/default/production\Lab10p2.X.production.obj
+__ptext2 14A2 0 CODE 0 text2 dist/default/production\Lab10p2.X.production.obj
+__ptext3 1366 0 CODE 0 text3 dist/default/production\Lab10p2.X.production.obj
+__ptext4 1020 0 CODE 0 text4 dist/default/production\Lab10p2.X.production.obj
+__ptext5 ED0 0 CODE 0 text5 dist/default/production\Lab10p2.X.production.obj
+__ptext6 B82 0 CODE 0 text6 dist/default/production\Lab10p2.X.production.obj
+__ptext7 1148 0 CODE 0 text7 dist/default/production\Lab10p2.X.production.obj
+__ptext8 1412 0 CODE 0 text8 dist/default/production\Lab10p2.X.production.obj
+__ptext9 D96 0 CODE 0 text9 dist/default/production\Lab10p2.X.production.obj
+_INT0_isr 376 0 CODE 0 text52 dist/default/production\Lab10p2.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\Lab10p2.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production\Lab10p2.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production\Lab10p2.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production\Lab10p2.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production\Lab10p2.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production\Lab10p2.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production\Lab10p2.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production\Lab10p2.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production\Lab10p2.X.production.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/production\Lab10p2.X.production.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/production\Lab10p2.X.production.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/production\Lab10p2.X.production.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/production\Lab10p2.X.production.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/production\Lab10p2.X.production.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/production\Lab10p2.X.production.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/production\Lab10p2.X.production.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/production\Lab10p2.X.production.obj
+__Ltext26 0 0 ABS 0 text26 dist/default/production\Lab10p2.X.production.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/production\Lab10p2.X.production.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/production\Lab10p2.X.production.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/production\Lab10p2.X.production.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/production\Lab10p2.X.production.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/production\Lab10p2.X.production.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/production\Lab10p2.X.production.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/production\Lab10p2.X.production.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/production\Lab10p2.X.production.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/production\Lab10p2.X.production.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/production\Lab10p2.X.production.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/production\Lab10p2.X.production.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/production\Lab10p2.X.production.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/production\Lab10p2.X.production.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/production\Lab10p2.X.production.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/production\Lab10p2.X.production.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/production\Lab10p2.X.production.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/production\Lab10p2.X.production.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/production\Lab10p2.X.production.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/production\Lab10p2.X.production.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/production\Lab10p2.X.production.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/production\Lab10p2.X.production.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/production\Lab10p2.X.production.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/production\Lab10p2.X.production.obj
+__Ltext51 0 0 ABS 0 text51 dist/default/production\Lab10p2.X.production.obj
+__Ltext52 0 0 ABS 0 text52 dist/default/production\Lab10p2.X.production.obj
+__Ltext53 0 0 ABS 0 text53 dist/default/production\Lab10p2.X.production.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\johnn\AppData\Local\Temp\s2vrs.obj
+drawtext@size EF 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+putch@c 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lpowerup 18 0 CODE 0 powerup dist/default/production\Lab10p2.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Lab10p2.X.production.obj
+__end_of_INT0_isr 4D6 0 CODE 0 text52 dist/default/production\Lab10p2.X.production.obj
+_isdigit 1366 0 CODE 0 text3 dist/default/production\Lab10p2.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Lab10p2.X.production.obj
+_i2cHighScl 14B0 0 CODE 0 text49 dist/default/production\Lab10p2.X.production.obj
+_i2cHighSda 14EE 0 CODE 0 text48 dist/default/production\Lab10p2.X.production.obj
+drawPixel@x 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawPixel@y 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_DS3231_Setup_Time E6C 0 CODE 0 text36 dist/default/production\Lab10p2.X.production.obj
+drawPixel@color 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_init_INTERRUPT 12E4 0 CODE 0 text10 dist/default/production\Lab10p2.X.production.obj
+drawFastVLine@color 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+___param_bank 10 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__CFG_WDT$OFF 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+spiwrite@spidata 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Lab10p2.X.production.obj
+__end_of__initialization D8C 0 CODE 0 cinit dist/default/production\Lab10p2.X.production.obj
+_delay_ms F80 0 CODE 0 text30 dist/default/production\Lab10p2.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\Lab10p2.X.production.obj
+__size_of_spiwrite 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cNack 14DC 0 CODE 0 text43 dist/default/production\Lab10p2.X.production.obj
+__pidataBANK0 10B6 0 CODE 0 idataBANK0 dist/default/production\Lab10p2.X.production.obj
+__pidataBANK1 F2C 0 CODE 0 idataBANK1 dist/default/production\Lab10p2.X.production.obj
+_DS3231_Read_Time E6C 0 CODE 0 text37 dist/default/production\Lab10p2.X.production.obj
+write_command@cmd_ 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\Lab10p2.X.production.obj
+__end_of_fillScreen 13E2 0 CODE 0 text13 dist/default/production\Lab10p2.X.production.obj
+__end_of_I2C_Write_Cmd_Write_Data 13A8 0 CODE 0 text34 dist/default/production\Lab10p2.X.production.obj
+drawChar@color 30 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_delay_ms FD2 0 CODE 0 text30 dist/default/production\Lab10p2.X.production.obj
+_rowstart 5F 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_DS1621_Init 13A8 0 CODE 0 text33 dist/default/production\Lab10p2.X.production.obj
+_TXSTAbits FAC 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_T3CONbits FB1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_write_data 1482 0 CODE 0 text26 dist/default/production\Lab10p2.X.production.obj
+__pmediumconst FD9A 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_SSPCON1 FC6 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_SSPSTAT FC7 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+DS1621_Read_Temp@Device 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_fillRect 106C 0 CODE 0 text18 dist/default/production\Lab10p2.X.production.obj
+drawChar@bg 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hend_init 1C 0 CODE 0 end_init dist/default/production\Lab10p2.X.production.obj
+__size_of_write_command 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_alarm_date 51 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_alarm_hour 52 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_font FE9A 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+__end_of_main AE4 0 CODE 0 text0 dist/default/production\Lab10p2.X.production.obj
+__pintcode 8 0 CODE 0 intcode dist/default/production\Lab10p2.X.production.obj
+__size_of_I2C_Write_Cmd_Only 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+isdigit@c 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_Rcmd1 854 0 CODE 0 text25 dist/default/production\Lab10p2.X.production.obj
+__end_of_Rcmd3 946 0 CODE 0 text23 dist/default/production\Lab10p2.X.production.obj
+printf@idx 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+printf@val 33 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_dpowers FF80 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+__end_of_font2 FF76 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_isdigit$2054 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_PORTA F80 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_RCSTA FAB 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_Rcmd1 744 0 CODE 0 text25 dist/default/production\Lab10p2.X.production.obj
+_Rcmd3 854 0 CODE 0 text23 dist/default/production\Lab10p2.X.production.obj
+_SPBRG FAF 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_T0CON FD5 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_T1CON FCD 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_T2CON FCA 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_T3CON FB1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR0H FD7 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR0L FD6 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR1H FCF 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR1L FCE 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR3H FB3 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TMR3L FB2 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRISA F92 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRISB F93 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRISC F94 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRISD F95 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TRISE F96 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TXREG FAD 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+_TXSTA FAC 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__end_of_putch 14B0 0 CODE 0 text2 dist/default/production\Lab10p2.X.production.obj
+__end_of_fillRect 10B6 0 CODE 0 text18 dist/default/production\Lab10p2.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production\Lab10p2.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production\Lab10p2.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production\Lab10p2.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production\Lab10p2.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production\Lab10p2.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production\Lab10p2.X.production.obj
+_color 80 0 BANK0 1 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+_font2 FE9A 0 MEDIUMCONST 0 mediumconst dist/default/production\Lab10p2.X.production.obj
+_found 59 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_month 5D 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_putch 14A2 0 CODE 0 text2 dist/default/production\Lab10p2.X.production.obj
+_tempC 6A 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_tempF 6B 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_colstart 56 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+_SSPSTATbits FC7 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+?_DS1621_Read_Temp 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_CCP2CON FBA 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+DS3231_Read_Time@Device 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Lab10p2.X.production.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cHighScl 14BC 0 CODE 0 text49 dist/default/production\Lab10p2.X.production.obj
+__end_of_i2cHighSda 14F6 0 CODE 0 text48 dist/default/production\Lab10p2.X.production.obj
+OpenUSART@config 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__initialization D1C 0 CODE 0 cinit dist/default/production\Lab10p2.X.production.obj
+__pbssBANK0 C9 0 BANK0 1 bssBANK0 dist/default/production\Lab10p2.X.production.obj
+__pdataCOMRAM 6D 0 COMRAM 1 dataCOMRAM dist/default/production\Lab10p2.X.production.obj
+__size_of_TIMER1_isr 0 0 ABS 0 - dist/default/production\Lab10p2.X.production.obj
+I2C_Write_Cmd_Write_Data@Data_Out 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+drawtext@textsize F1 0 BANK0 1 cstackBANK0 dist/default/production\Lab10p2.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\Lab10p2.X.production.obj
+___wmul@product 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+_spiwrite 1426 0 CODE 0 text28 dist/default/production\Lab10p2.X.production.obj
+OpenUSART@spbrg 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Lab10p2.X.production.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Lab10p2.X.production.obj
+_bit_count 55 0 COMRAM 1 bssCOMRAM dist/default/production\Lab10p2.X.production.obj
+__end_of_write_command 14A2 0 CODE 0 text27 dist/default/production\Lab10p2.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\Lab10p2.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Lab10p2.X.production.obj
+__Hintcode 18 0 CODE 0 intcode dist/default/production\Lab10p2.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+idloc 0 200000 200000 8 1
+text42 0 1100 1100 400 1
+cstackCOMRAM 1 1 1 6E 1
+reset_vec 0 0 0 4 1
+intcode 0 8 8 10F7 1
+dataBANK0 1 80 80 77 1
+dataBANK1 1 100 100 54 1
+mediumconst 0 FD9A FD9A 266 1
+config 0 300000 300000 E 1

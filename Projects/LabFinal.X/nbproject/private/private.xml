@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Heater.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Main.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Fan_Support.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Heater.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Alarm.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/I2C_Support.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/I2C.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/I2C.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/LabFinal.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/I2C_Support.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Fan_Support.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Time.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Main_Screen.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Interrupt.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Time.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Main_Screen.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/ST7735_TFT.c</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Setup_Alarm.h</file>
+            <file>file:/E:/MPLab/Projects/LabFinal.X/Interrupt.h</file>
+        </group>
+    </open-files>
+</project-private>
